@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#111111"><title>FayezTok Offline</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><strong>FayezTok</strong><span class="offline">● بدون إنترنت</span></header>
+<main>
+<section class="intro">
+<h1>عالم فيديوهاتك 🎬</h1>
+<p>نسخة تجريبية محلية — الفيديوهات تبقى على هذا الجهاز فقط.</p>
+</section>
+<section class="upload panel">
+<h2>＋ إضافة فيديو</h2>
+<input id="videoFile" type="file" accept="video/*">
+<input id="caption" maxlength="180" placeholder="اكتب وصف الفيديو">
+<button id="addBtn">إضافة إلى التطبيق</button><p id="msg" class="msg"></p>
+</section>
+<section class="feed-head"><h2>لك</h2><button id="clearBtn" class="subtle">مسح فيديوهاتي</button></section>
+<section id="feed" class="feed"><p class="hint">لا توجد فيديوهات بعد. اختر فيديو من هاتفك وأضفه.</p></section>
+<section id="profile" class="panel profile"><h2>ملفي الشخصي</h2><p>FayezTok — النسخة المحلية</p><p id="count">عدد الفيديوهات: 0</p><p class="hint">هذه النسخة لا تنشئ حسابات ولا تنشر الفيديوهات للآخرين.</p></section>
+</main>
+<nav class="bottom"><button id="homeNav">⌂<small>الرئيسية</small></button><button id="addNav">＋<small>إضافة</small></button><button id="profileNav">♙<small>ملفي</small></button></nav>
+<script src="app.js"></script>
+</body></html>
